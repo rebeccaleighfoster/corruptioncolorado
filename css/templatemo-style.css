@@ -74,10 +74,10 @@ p {
   padding: 0;
   z-index: 10000;
   transition: all 0.2s ease-in-out;
-  height: 80px;
+  height: 60px;
   text-align: center;
   line-height: 40px;
-  background-color: rgb(33, 60, 31, 0.7);
+  background-color: rgb(33, 60, 31);
 }
 
 .navbar-inverse .navbar-brand,
@@ -87,7 +87,7 @@ p {
 
 .navbarcbo {
   float: left;
-  width: 40vw;
+  width: 35vw;
   margin: 10px;
 }
 
@@ -113,14 +113,13 @@ p {
   font-size: 13px;
   font-weight: 300;
   text-transform: uppercase;
-  text-shadow: none;
-  line-height: 80px;
-  padding: 0px;
+  line-height: 60px;
+  padding: 0 7px 0 7px;
+  margin: 0 7px 0 7px;
   letter-spacing: 0.5px;
-}
-
-.navbar-nav > li {
-  margin-right: 10px;
+  border-style: solid;
+  border-top: transparent;
+  border-bottom: transparent;
 }
 
 .header.active .navbar-nav > li > a {
